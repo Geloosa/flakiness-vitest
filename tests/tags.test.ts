@@ -2,6 +2,7 @@ import { expect, it } from 'vitest';
 import { assertCount, generateFlakinessReport } from './utils';
 
 // TODO: looks like custom reporters have no access to test tags.
+// See https://github.com/vitest-dev/vitest/issues/10304
 it.todo('should capture test tags', async (ctx) => {
   const { report } = await generateFlakinessReport(ctx, {
     'vitest.config.ts': `
