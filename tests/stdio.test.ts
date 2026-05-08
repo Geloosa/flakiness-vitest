@@ -27,5 +27,6 @@ it('should capture stdio', async (ctx) => {
   expect(stderr.stream ?? FlakinessReport.STREAM_STDOUT).toBe(FlakinessReport.STREAM_STDERR);
   //TODO: vitest bug: the first stderr entry has the same time
   // as the previous stdout.
+  // See https://github.com/vitest-dev/vitest/issues/10307
   // expect(stderr.dts).toBeGreaterThan(0);
 });
