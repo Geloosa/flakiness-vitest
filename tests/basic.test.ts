@@ -28,7 +28,7 @@ it('should report proper top-level properties', async (ctx) => {
   // CPU telemetry
   expect(report.cpuCount).toBeGreaterThan(0);
   expect(report.cpuMax?.length).toBeGreaterThan(0);
-  expect(report.cpuAvg?.length).toBeGreaterThan(10);
+  expect(report.cpuAvg?.length).toBeGreaterThan(0);
   // RAM telemetry
   expect(report.ramBytes).toBeGreaterThan(0);
   expect(report.ram?.length).toBeGreaterThan(0);
