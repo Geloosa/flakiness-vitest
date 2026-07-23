@@ -9,7 +9,7 @@ export default defineConfig({
     reporters: [
       'default',
       ['@flakiness/vitest', {
-        flakinessProject: 'flakiness/vitest',
+        flakinessProject: 'geloosa/check-out-vitest',
       }],
     ],
   },

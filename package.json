@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/flakiness/vitest"
+    "url": "https://flakiness.io/geloosa/check-out-vitest"
   },
   "type": "module",
   "engines": {
