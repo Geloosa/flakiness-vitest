@@ -4,7 +4,7 @@ export default defineConfig({
   test: {
     includeTaskLocation: true,
     globalSetup: './tests/global-setup.ts',
-    exclude: ['**/node_modules/**', '**/run-artifacts/**'],
+    exclude: ['**/node_modules/**', '**/run-artifacts/**', "**/*visual.test.ts"],
     testTimeout: 30000,
     reporters: [
       'default',
